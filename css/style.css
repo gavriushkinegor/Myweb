@@ -1,0 +1,94 @@
+body {
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #333;
+
+  background: url("../Img/pattern.png") repeat;
+
+  background-attachment: fixed;
+}
+
+.title {
+  text-align: center;
+  font-weight: 700;
+  letter-spacing: -2px;
+  text-transform: uppercase;
+}
+
+.justify {
+  text-align: justify;
+  font-weight: 700;
+  font-style: oblique;
+  text-transform: capitalize;
+}
+ul {
+  list-style-type: square;
+  list-style-position: outside;
+  font-family: Tahoma, sans-serif;
+  color: #114eaf;
+}
+ol {
+  list-style-type: decimal-leading-zero;
+}
+.table {
+  width: 100%;
+  border: 1px dashed #000;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+.table th {
+  padding: 5px 10px 8px 15px;
+  text-align: left;
+  color: #7a0404;
+}
+.table td {
+  padding: 5px 10px 8px 15px;
+  border: 1px dashed #000;
+}
+.table tfoot td {
+  text-align: right;
+}
+
+/* Post */
+.post {
+  width: 600px;
+  height: 300px;
+  padding: 15px 25px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  margin: 0 auto 20px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  background-image: url("../Img/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.post-title {
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: rgb(255, 251, 0);
+}
+.post-text p {
+  margin: 0 0 10px 0;
+}
+.post-text {
+  color: white;
+}
+/* Gradient */
+.gradient {
+  width: 600px;
+  height: 300px;
+  margin: 0 auto;
+  background-image: radial-gradient(circle, #fff, #333);
+  /*background-image: linear-gradient( to left, #fff 20%, #333 20%, #333 40%, #fff 40%, #fff 60%, #333 60%, #333 80%, 
+    #fff 80% );*/
+}
+.container {
+  width: 200px;
+  height: 300px;
+  margin: 0 auto;
+  background-image: linear-gradient(to top, #fff, rgb(112, 11, 11));
+}
